@@ -8,9 +8,7 @@ export const router = new Router([
   {
     path: '',
     controllers: [HomeController, ExamplesController, JumblesController],
-    view: /*html*/`
-    
-    `
+    view: 'app/views/HomeView.html'
   },
   {
     path: '#/about',

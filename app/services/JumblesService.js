@@ -5,5 +5,5 @@ class JumbleService {
 
 }
 
-export const jumbleService = JumbleService
+export const jumbleService = new JumbleService()
 

@@ -14,19 +14,19 @@ export class Jumble {
     this.endTime = null
   }
 
-  get ListTemplate() { // a basic list template to get drawing
+  get ListTemplate() {
     return `<div class="d-flex justify-content-between">
     <span>
       <button class=" btn btn-info">start</button>
     </span>
     <span>${this.name}</span>
-    <span>${this.fastestTime}</span>
-    <span>${this.startTime}</span>
+    <span>${this.name}</span>
+    <span>${this.name}</span>
   </div>`
   }
 
-  get ActiveJumbleTemplate() {
-    return ``
-  }
+  // get ActiveJumbleTemplate() {
+  //   return ``
+  // }
 
 }
