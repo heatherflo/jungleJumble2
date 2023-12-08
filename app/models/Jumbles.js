@@ -15,6 +15,18 @@ export class Jumble {
   }
 
   get ListTemplate() { // a basic list template to get drawing
-    return `<li>${this.name}</li>`
+    return `<div class="d-flex justify-content-between">
+    <span>
+      <button class=" btn btn-info">start</button>
+    </span>
+    <span>${this.name}</span>
+    <span>${this.fastestTime}</span>
+    <span>${this.startTime}</span>
+  </div>`
   }
+
+  get ActiveJumbleTemplate() {
+    return ``
+  }
+
 }
